@@ -13,7 +13,7 @@ setup(
   version='1.1.1',
   description='A tool to predict when to buy or sell stocks',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
-  url='',  
+  url='https://github.com/hisjam/cuansignal',  
   author='Achmad Hisyam',
   author_email='achmadhisyam@gmail.com',
   license='MIT', 
