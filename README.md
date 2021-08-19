@@ -41,7 +41,7 @@ The resulting output is a DataFrame
 ```
 
 ### Bollinger Band (bband)
-```bash
+```python
 cuansignal.bband(df, base, period, std)
 df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
 base = parameter that is the basis for calculating Simple MA, for example 'Close', or 'Adj Close', or others
@@ -74,7 +74,7 @@ The resulting output is a DataFrame
 ```
 
 ### Relative Strength Index
-```bash
+```python
 cuansignal.rsi(df, base, EMA, MA, RSI)
 df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
 base = parameter on which the RSI calculation is based, for example 'Close', or 'Adj Close', or something else
@@ -107,7 +107,7 @@ The resulting output is a DataFrame
 
 ```
 ### Stochastics
-```bash
+```python
 cuansignal.stoch(df, period, period2, high, low)
 df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
 period = the length of the period to be used in calculating the value of %K
