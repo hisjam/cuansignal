@@ -8,12 +8,11 @@ More functions will be added in the next edition. We welcome input and critics.
 ## Function
 
 ### Double Exponential Moving Average (dEMA)
-
-#### cuansignal.dEMA(df, base, short, long)
-#### df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
-#### base = parameter on which the EMA calculation is based, for example 'Close', or 'Adj Close', or something else
-#### short = the first EMA period used in the model (which is shorter)
-#### long = the second EMA period used in the model (which is longer)
+ cuansignal.dEMA(df, base, short, long)
+ df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+ base = parameter on which the EMA calculation is based, for example 'Close', or 'Adj Close', or something else
+ short = the first EMA period used in the model (which is shorter)
+ long = the second EMA period used in the model (which is longer)
  The resulting output is a DataFrame
 
 ```python
@@ -40,13 +39,12 @@ More functions will be added in the next edition. We welcome input and critics.
 ```
 
 ### Bollinger Band (bband)
-
-cuansignal.bband(df, base, period, std)
-df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
-base = parameter that is the basis for calculating Simple MA, for example 'Close', or 'Adj Close', or others
-period = length of the period to be used in calculating the value of Simple MA and Standard Deviation
-std = standard deviation multiplier
-The resulting output is a DataFrame
+ cuansignal.bband(df, base, period, std)
+ df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+ base = parameter that is the basis for calculating Simple MA, for example 'Close', or 'Adj Close', or others
+ period = length of the period to be used in calculating the value of Simple MA and Standard Deviation
+ std = standard deviation multiplier
+ The resulting output is a DataFrame
 
 ```python
 >>> import yfinance as yf
@@ -72,14 +70,13 @@ The resulting output is a DataFrame
 ```
 
 ### Relative Strength Index
-
-cuansignal.rsi(df, base, EMA, MA, RSI)
-df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
-base = parameter on which the RSI calculation is based, for example 'Close', or 'Adj Close', or something else
-EMA = the length of the period to be used in calculating the EMA value for the Average Up and Down periods
-MA = the length of the MA period which is the cut-of buying signal
-RSI = RSI value which is the reference for buying signal
-The resulting output is a DataFrame
+ cuansignal.rsi(df, base, EMA, MA, RSI)
+ df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+ base = parameter on which the RSI calculation is based, for example 'Close', or 'Adj Close', or something else
+ EMA = the length of the period to be used in calculating the EMA value for the Average Up and Down periods
+ MA = the length of the MA period which is the cut-of buying signal
+ RSI = RSI value which is the reference for buying signal
+ The resulting output is a DataFrame
 
 ```python
 >>> import yfinance as yf
@@ -104,14 +101,13 @@ The resulting output is a DataFrame
 
 ```
 ### Stochastics
-
-cuansignal.stoch(df, period, period2, high, low)
-df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
-period = the length of the period to be used in calculating the value of %K
-period2 = the length of the period to be used in calculating the value of %D
-high = high limit value which becomes the cut-of buying/selling signal
-low = low limit value which becomes the cut-of buying/selling signal
-The resulting output is a DataFrame
+ cuansignal.stoch(df, period, period2, high, low)
+ df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+ period = the length of the period to be used in calculating the value of %K
+ period2 = the length of the period to be used in calculating the value of %D
+ high = high limit value which becomes the cut-of buying/selling signal
+ low = low limit value which becomes the cut-of buying/selling signal
+ The resulting output is a DataFrame
 
 ```python
 >>> import yfinance as yf
@@ -138,9 +134,11 @@ The resulting output is a DataFrame
 
 ## Changelog
 
-### Version 1.0.0 (2021.08.19)
+### Version 1.1.0 (2021.08.19)
+ Updating Minor Bugs
 
-- Initial release
+### Version 1.0.0 (2021.08.19)
+ Initial release
 
 ## License
 
