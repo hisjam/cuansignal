@@ -1,8 +1,8 @@
 Metadata-Version: 1.1
 Name: cuansignal
-Version: 1.1.1
+Version: 1.1.2
 Summary: A tool to predict when to buy or sell stocks
-Home-page: UNKNOWN
+Home-page: https://github.com/hisjam/cuansignal
 Author: Achmad Hisyam
 Author-email: achmadhisyam@gmail.com
 License: MIT

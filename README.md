@@ -142,6 +142,13 @@ The resulting output is a DataFrame
 
 ## Changelog
 
+### Version 1.1.2 (2021.08.19)
+- Updating Minor Bugs
+- Add Github Link
+
+### Version 1.1.1 (2021.08.19)
+- Updating Minor Bugs
+
 ### Version 1.1.0 (2021.08.19)
 - Updating Minor Bugs
 - Updating Readme.md

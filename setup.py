@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='cuansignal',
-  version='1.1.1',
+  version='1.1.2',
   description='A tool to predict when to buy or sell stocks',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/hisjam/cuansignal',  
