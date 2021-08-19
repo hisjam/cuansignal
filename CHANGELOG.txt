@@ -1,0 +1,11 @@
+Change Log
+=================================
+
+1.0.0 (18/08/2021)
+------------------
+Adding four indicators : 
+1. Dual Exponential Moving Average (dEMA)
+2. Bollinger Band (bband)
+3. Relative Strenght Index (rsi)
+4. Stochastic (stoch)
+
