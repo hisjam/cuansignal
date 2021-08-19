@@ -8,14 +8,12 @@ More functions will be added in the next edition. We welcome input and critics.
 ## Function
 
 ### Double Exponential Moving Average (dEMA)
-```bash
-cuansignal.dEMA(df, base, short, long)
-df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
-base = parameter on which the EMA calculation is based, for example 'Close', or 'Adj Close', or something else
-short = the first EMA period used in the model (which is shorter)
-long = the second EMA period used in the model (which is longer)
-The resulting output is a DataFrame
-```
+- cuansignal.dEMA(df, base, short, long)
+- df = data to be analyzed, with format ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+- base = parameter on which the EMA calculation is based, for example 'Close', or 'Adj Close', or something else
+- short = the first EMA period used in the model (which is shorter)
+- long = the second EMA period used in the model (which is longer)
+- The resulting output is a DataFrame
 
 ```python
 >>> import yfinance as yf
